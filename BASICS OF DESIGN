@@ -1,0 +1,44 @@
+WHAT IS OOP AND OOD?
+OOPS  is used to solve the particular problem in a particular language but ood is used to solve  a problem using the design techniques and pattern to solve the the problem
+OOD is used to create a solution which can be implemented in any language.
+
+What is Solid principle?
+SINGLE RESPONSIBILITY:- A class should have only one reason to change, meaning it should have only one job or responsibility.
+
+Incorrect code :-class Book {
+    private String title;
+    private String author;
+
+    public void borrowBook() {
+        // Logic for borrowing a book
+    }
+
+    public void notifyMember() {
+        // Logic for notifying a member
+    }
+}
+
+Reason:- Imagine a Library system:
+A Book class represents details about a book (e.g., title, author, ISBN).
+Responsibilities like managing book borrowing or notifying members are separate from the Book class and should not be handled here.
+
+Correct Code:- 
+class Book {
+    private String title;
+    private String author;
+    // Book-related properties and methods
+}
+
+class BorrowService {
+    public void borrowBook(Book book) {
+        // Logic for borrowing a book
+    }
+}
+
+class NotificationService {
+    public void notifyMember(String message) {
+        // Logic for notifying a member
+    }
+}
+
+
