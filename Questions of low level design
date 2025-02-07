@@ -1,0 +1,96 @@
+1. Design a Parking Lot
+        Problem: Design a parking lot system that can handle different types of vehicles (e.g., cars, motorcycles, trucks). The parking lot should have multiple parking spots, and you need to implement features like:
+        Parking a vehicle
+        Removing a vehicle
+        Finding an available parking spot
+        Handling different types of vehicles and parking rates
+Considerations:
+        Define classes such as ParkingLot, ParkingSpot, Vehicle, Car, Motorcycle, Truck, etc.
+        Use inheritance or interfaces for vehicle types.
+        Implement rules for how many vehicles of each type can fit in the parking lot.
+2. Design a Library Management System
+        Problem: Design a system that manages a library's collection of books. The system should support:
+        Adding new books to the catalog
+        Checking out books
+        Returning books
+        Tracking overdue books and fines
+Considerations:
+        Use classes like Book, Member, Library, etc.
+        Implement methods for searching, borrowing, and returning books.
+        Handle book availability and overdue fines.
+3. Design an Elevator System
+        Problem: Design a system for managing multiple elevators in a building. The system should be able to:
+        Move elevators up and down based on button presses.
+        Handle requests from multiple floors.
+        Prioritize elevator movement when multiple requests are made.
+Considerations:
+        Define classes like Elevator, ElevatorSystem, Button, and Floor.
+        Consider edge cases, like multiple elevator calls on the same floor or simultaneous up/down requests.
+        Handle scheduling logic for elevators to pick up passengers.
+4. Design a Vending Machine
+        Problem: Design a vending machine that allows users to:
+        Select items
+        Insert money
+        Get a receipt
+        Get the selected item
+        Refund money in case of insufficient items
+Considerations:
+        Implement classes for VendingMachine, Item, Product, Money, and User.
+        Keep track of inventory and balance.
+        Handle cases like insufficient funds or out-of-stock items.
+5. Design a File System
+        Problem: Design a file system that allows:
+        Creating and deleting files and directories
+        Listing files in a directory
+        Reading and writing to a file
+        Renaming and moving files or directories
+Considerations:
+        Define classes like File, Directory, and FileSystem.
+        Implement methods for file and directory operations.
+        Handle permissions and file attributes.
+6. Design a Simple ATM Machine
+        Problem: Design a simple ATM machine system with the following features:
+        User authentication
+        Withdraw money
+        Deposit money
+        Transfer money
+Considerations:
+        Implement classes like ATM, Account, Transaction, and User.
+        Handle authentication via PIN.
+        Track account balances and perform transactions.
+7. Design a Simple Online Chat System
+        Problem: Design an online chat system where users can:
+        Send messages to each other
+        Create chat rooms
+        Display chat history
+        Handle multiple users online
+Considerations:
+        Implement classes like User, Message, ChatRoom, and ChatServer.
+        Design methods for sending and receiving messages.
+        Handle user authentication and message history storage.
+8. Design a Ticket Booking System
+        Problem: Design a system that handles online ticket booking for events, flights, or movies:
+        Users can book and cancel tickets
+        Track seat availability
+        Implement different pricing based on seat classes
+Considerations:
+        Define classes like Ticket, Event, User, Booking.
+        Handle concurrency issues, such as double-booking of seats.
+9. Design a Simple Social Media Platform
+        Problem: Design a simple social media platform where users can:
+        Post text/images
+        Follow and unfollow other users
+        Like and comment on posts
+Considerations:
+        Implement classes like User, Post, Comment, Follower.
+        Manage relationships between users (e.g., followers).
+        Track likes and comments for posts.
+10. Design a Simple Order Management System
+        Problem: Design a system to manage customer orders, where:
+        Customers can place orders
+        Orders can be tracked through stages (e.g., pending, shipped, delivered)
+        Customers can cancel orders before shipping
+Considerations:
+        Define classes like Order, Customer, Product, and Payment.
+        Track the status of orders and transitions between statuses.
+        Handle payment processing.
